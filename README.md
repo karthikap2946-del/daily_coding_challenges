@@ -39,3 +39,35 @@ a=int(input())
 b=int(input())
 print(a/b)
 ```
+
+### 7. Find remainder
+```Python
+a=int(input())
+b=int(input())
+print(a%b)
+```
+
+### 8. Find quotient
+```Python
+a=int(input())
+b=int(input())
+print(a//b)
+```
+
+### 9.Swap two numbers (using third variable)
+```Python
+a=int(input())
+b=int(input())
+temp=a
+a=b
+b=temp
+print(a,b)
+```
+
+### 10.Swap two numbers (without third variable)
+```Python
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a,b)
+```
