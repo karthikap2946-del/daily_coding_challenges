@@ -71,3 +71,90 @@ b=int(input())
 a,b=b,a
 print(a,b)
 ```
+## 2.inputs & outputs
+### 11. Read an integer and print it.
+```Python
+a=int(input())
+print(a)
+```
+
+### 12. Read a float and print it.
+```Python
+a=float(input())
+print(a)
+```
+
+### 13. Read a string and print it.
+```Python
+a=str(input())
+print(a)
+```
+
+### 14.Read three numbers and find their sum
+```Python
+a=int(input())
+b=int(input())
+c=int(input())
+total=a+b+c
+print(total)
+```
+
+### 15. Calculate simple interest
+```Python
+p=float(input())
+r=float(input())
+t=float(input())
+si=(p*r*t)/100
+print(si)
+```
+
+### 16.Calculate compound interest
+```Python
+p=float(input())
+r=float(input())
+t=float(input())
+a=p*(1+r/100)**t
+ci=a-p
+print(ci)
+```
+
+### 17.Calculate area of circle
+```Python
+import math
+r=float(input())
+area=math.pi*r*r
+print(area)
+```
+
+### 18.Calculate area of rectangle
+```Python
+l=float(input())
+b=float(input())
+area=l*b
+print(area)
+```
+
+### 19.Calculate area of triangle
+```Python
+base=float(input())
+height=float(input())
+area=0.5*base*height
+print(area)
+```
+
+### 20.Convert Celsius to Fahrenheit
+```Python
+celsius=float(input())
+fahrenheit=(9/5)*celsius+32
+print(fahrenheit)
+```   
+## 3. Operators
+### 21.Check even or odd
+```Python
+a=int(input())
+if a%2==0:
+   print("even")
+else:
+   print("odd")
+```
+
