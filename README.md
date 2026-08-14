@@ -222,3 +222,12 @@ if num % 7 == 0:
 else:
     print("It is not a multiple of 7")
 ```
+### 28.Check voting eligibility
+```Python
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+```
